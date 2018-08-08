@@ -1,0 +1,133 @@
+? indicates les you will need to complete
+y indicates optional exercises
+
+EX1: Linear regression | DATA: Prot of a food truck / Housing prices
+
+ex1.m - Octave/MATLAB script that steps you through the exercise
+ex1 multi.m - Octave/MATLAB script for the later parts of the exercise
+ex1data1.txt - Dataset for linear regression with one variable
+ex1data2.txt - Dataset for linear regression with multiple variables
+submit.m - Submission script that sends your solutions to our servers
+[?] warmUpExercise.m - Simple example function in Octave/MATLAB
+[?] plotData.m - Function to display the dataset
+[?] computeCost.m - Function to compute the cost of linear regression
+[?] gradientDescent.m - Function to run gradient descent
+[y] computeCostMulti.m - Cost function for multiple variables
+[y] gradientDescentMulti.m - Gradient descent for multiple variables
+[y] featureNormalize.m - Function to normalize features
+[y] normalEqn.m - Function to compute the normal equations
+--------------------------------------------------------------------------
+
+EX2: Logistic Regression | DATA: Exam score / Microchip Test
+
+ex2.m - Octave/MATLAB script that steps you through the exercise
+ex2 reg.m - Octave/MATLAB script for the later parts of the exercise
+ex2data1.txt - Training set for the first half of the exercise
+ex2data2.txt - Training set for the second half of the exercise
+submit.m - Submission script that sends your solutions to our servers
+mapFeature.m - Function to generate polynomial features
+plotDecisionBoundary.m - Function to plot classifier's decision boundary
+[?] plotData.m - Function to plot 2D classication data
+[?] sigmoid.m - Sigmoid Function
+[?] costFunction.m - Logistic Regression Cost Function
+[?] predict.m - Logistic Regression Prediction Function
+[?] costFunctionReg.m - Regularized Logistic Regression Cost
+--------------------------------------------------------------------------
+
+EX3: Multi-class Classification and Neural Networks (apply) | DATA: Hand-written digits 
+
+ex3.m - Octave/MATLAB script that steps you through part 1
+ex3 nn.m - Octave/MATLAB script that steps you through part 2
+ex3data1.mat - Training set of hand-written digits
+ex3weights.mat - Initial weights for the neural network exercise
+submit.m - Submission script that sends your solutions to our servers
+displayData.m - Function to help visualize the dataset
+fmincg.m - Function minimization routine (similar to fminunc)
+sigmoid.m - Sigmoid function
+[?] lrCostFunction.m - Logistic regression cost function
+[?] oneVsAll.m - Train a one-vs-all multi-class classier
+[?] predictOneVsAll.m - Predict using a one-vs-all multi-class classier
+[?] predict.m - Neural network prediction function
+--------------------------------------------------------------------------
+
+EX4: Neural Networks Learning | DATA: Hand-written digits 
+
+ex4.m - Octave/MATLAB script that steps you through the exercise
+ex4data1.mat - Training set of hand-written digits
+ex4weights.mat - Neural network parameters for exercise 4
+submit.m - Submission script that sends your solutions to our servers
+displayData.m - Function to help visualize the dataset
+fmincg.m - Function minimization routine (similar to fminunc)
+sigmoid.m - Sigmoid function
+computeNumericalGradient.m - Numerically compute gradients
+checkNNGradients.m - Function to help check your gradients
+debugInitializeWeights.m - Function for initializing weights
+predict.m - Neural network prediction function
+[?] sigmoidGradient.m - Compute the gradient of the sigmoid function
+[?] randInitializeWeights.m - Randomly initialize weights
+[?] nnCostFunction.m - Neural network cost function
+--------------------------------------------------------------------------
+
+EX5: Regularized Linear Regression and Bias v.s. Variance (Learning Curves) | DATA: water flowing - water level
+
+ex5.m - Octave/MATLAB script that steps you through the exercise
+ex5data1.mat - Dataset
+submit.m - Submission script that sends your solutions to our servers
+featureNormalize.m - Feature normalization function
+fmincg.m - Function minimization routine (similar to fminunc)
+plotFit.m - Plot a polynomial t
+trainLinearReg.m - Trains linear regression using your cost function
+[?] linearRegCostFunction.m - Regularized linear regression cost func-
+tion
+[?] learningCurve.m - Generates a learning curve
+[?] polyFeatures.m - Maps data into polynomial feature space
+[?] validationCurve.m - Generates a cross validation curve
+--------------------------------------------------------------------------
+
+EX6: Support Vector Machines | DATA: synthesic dataset 1/ 2/ 3 contrain linear or non-linear boundaries
+
+ex6.m - Octave/MATLAB script for the rst half of the exercise
+ex6data1.mat - Example Dataset 1
+ex6data2.mat - Example Dataset 2
+ex6data3.mat - Example Dataset 3
+svmTrain.m - SVM training function
+svmPredict.m - SVM prediction function
+plotData.m - Plot 2D data
+visualizeBoundaryLinear.m - Plot linear boundary
+visualizeBoundary.m - Plot non-linear boundary
+linearKernel.m - Linear kernel for SVM
+[?] gaussianKernel.m - Gaussian kernel for SVM
+[?] dataset3Params.m - Parameters to use for Dataset 3
+
+--------------------------------------------------------------------------
+
+EX7: K-means Clustering and Principal Component Analysis | DATA: Bird segmentation/ Face compressed by PCA/ exp data for Kmean and PCA
+
+ex7.m - Octave/MATLAB script for the rst exercise on K-means
+ex7 pca.m - Octave/MATLAB script for the second exercise on PCA
+ex7data1.mat - Example Dataset for PCA
+ex7data2.mat - Example Dataset for K-means
+ex7faces.mat - Faces Dataset
+bird small.png - Example Image
+displayData.m - Displays 2D data stored in a matrix
+drawLine.m - Draws a line over an exsiting gure
+plotDataPoints.m - Initialization for K-means centroids
+plotProgresskMeans.m - Plots each step of K-means as it proceeds
+
+--------------------------------------------------------------------------
+
+EX8: Anomaly Detection and Recommender Systems | DATA: Movie recommendation/ exp data 1 and 2 for anomaly detection
+
+ex8.m - Octave/MATLAB script for rst part of exercise
+ex8 cofi.m - Octave/MATLAB script for second part of exercise
+ex8data1.mat - First example Dataset for anomaly detection
+ex8data2.mat - Second example Dataset for anomaly detection
+ex8 movies.mat - Movie Review Dataset
+ex8 movieParams.mat - Parameters provided for debugging
+multivariateGaussian.m - Computes the probability density function
+for a Gaussian distribution
+visualizeFit.m - 2D plot of a Gaussian distribution and a dataset
+checkCostFunction.m - Gradient checking for collaborative ltering
+computeNumericalGradient.m - Numerically compute gradients
+
+--------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+number recodnisation with CNN
+ex7: 
+k-mean segmentation birds photo -> rock segmentation
+face pca
